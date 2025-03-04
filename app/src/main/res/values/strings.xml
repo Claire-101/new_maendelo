@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">Mendeleo Tracker</string>
+    <string name="registration">Registration</string>
+    <string name="register">Register</string>
+    <string name="username">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="have_an_account">Already have an account</string>
+    <string name="description">Track and monitor government projects across Kenya</string>
+
+
+    <!-- Home Page -->
+
+    <string name="calender1">Jan 2024 - Dec 2024 </string>
+    <string name="calender2">Jan 2025 - Dec 2025 </string>
+    <string name="calender3">Feb 2025 - Aug 2025 </string>
+    <string name="County1">Kibera, Nairobi </string>
+    <string name="County2">Mombasa </string>
+    <string name="County3">Machackos </string>
+    <string name="KES_15M">KES 15M </string>
+    <string name="KES_45M">KES 45M </string>
+    <string name="Rural">Rural School Digital Program</string>
+
+
+
+    <string name="Mombasa">Mombasa County hospital </string>
+
+             <!-- Tags-->
+    <string name="Infrastructure">Infrastructure</string>\
+    <string name="Education">Education</string>
+    <string name="Agriculture">Agriculture</string>
+    <string name="Health">Health</string>
+    <string name="Water">Water</string>
+
+    <!-- Details Page-->
+
+                 <!-- Budget Card-->
+
+    <string name="Kibera_Road">Kibera Road Expansion</string>
+    <string name="kibera_Nairobi">Kibera, Nairobi county - Along Kobera Drive extending2.5km from olympic to kibera south road</string>
+    <string name="Budget">Budget Breakdown</string>
+    <string name="KES_25M">KES 25M</string>
+    <string name="Materials">Materials</string>
+    <string name="Labour">Labour</string>
+    <string name="Planning">Planning</string>
+    <string name="KES_8M">KES 8M</string>
+    <string name="KES_2M">KES 2M</string>
+
+                <!-- Timeline Card-->
+    <string name="Timeline">Timeline</string>
+    <string name="Start">Start: January 2024 </string>
+    <string name="End">End: December 2024 </string>
+    <string name="Date1">March 2024 </string>
+    <string name="Date2">June 2024 </string>
+    <string name="Date3">September 2024 </string>
+    <string name="Preparation">Ground preparation and initial excavation </string>
+    <string name="Road">Road based construction </string>
+    <string name="Asphalt">Asphalt Laying </string>
+
+                 <!-- Project Progress-->
+    <string name="Progress">Project Progress </string>
+    <string name="Updates">Recent Updates </string>
+    <string name="Date4">2025-02-15</string>
+    <string name="Ground">Ground clearing completed ahead of schedule. </string>
+
+
+
+
+
+
+
+
+
+
+</resources>
