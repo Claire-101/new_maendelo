@@ -24,7 +24,7 @@
 
     <EditText
         android:id="@+id/input_id"
-        android:layout_width="340dp"
+        android:layout_width="320dp"
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
         android:autofillHints="National ID"
@@ -58,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/have_an_account"
+        android:text="@string/Forgot"
         app:layout_constraintEnd_toEndOf="@+id/input_password"
         app:layout_constraintTop_toBottomOf="@+id/input_password" />
 
