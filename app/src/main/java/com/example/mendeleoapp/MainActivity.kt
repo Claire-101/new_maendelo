@@ -20,13 +20,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // Find button and set click listener
-        val button = findViewById<Button>(R.id.goToHome)
-        button.setOnClickListener {
-            val intent = Intent(this, details::class.java)
-            startActivity(intent)
-        }
-
 
         // TextView click listener (Navigate to HomeActivity)
         val textView = findViewById<TextView>(R.id.already_Have_account) // Make sure this ID matches your XML

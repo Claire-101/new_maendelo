@@ -9,10 +9,14 @@
     <string name="phone">Phone Number </string>
     <string name="Forgot">Forgot Password </string>
     <string name="password">Password</string>
+    <string name="LOGIN">LOGIN</string>
+
     <string name="confirm_password">Confirm Password</string>
     <string name="have_an_account">Already have an account</string>
     <string name="description">Track and monitor government projects across Kenya</string>
 
+    <string name="Google">Google</string>
+    <string name="Facebook">Facebook</string>
 
     <!-- Home Page -->
 
