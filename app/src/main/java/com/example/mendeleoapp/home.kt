@@ -2,14 +2,14 @@ package com.example.mendeleoapp
 
 
 import android.os.Bundle
-import android.util.Log
+import android.content.Intent
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-
+import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class home : AppCompatActivity() {
+class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -20,5 +20,11 @@ class home : AppCompatActivity() {
             insets
         }
 
+        // Find button and set click listener
+        val card = findViewById<CardView>(R.id.card1)
+        card.setOnClickListener {
+            val intent = Intent(this, details::class.java)
+            startActivity(intent)
+        }
     }
 }

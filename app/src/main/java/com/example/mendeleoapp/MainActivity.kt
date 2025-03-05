@@ -3,6 +3,7 @@ package com.example.mendeleoapp
 import android.os.Bundle
 import android.content.Intent
 import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -23,6 +24,14 @@ class MainActivity : AppCompatActivity() {
         val button = findViewById<Button>(R.id.goToHome)
         button.setOnClickListener {
             val intent = Intent(this, details::class.java)
+            startActivity(intent)
+        }
+
+
+        // TextView click listener (Navigate to HomeActivity)
+        val textView = findViewById<TextView>(R.id.already_Have_account) // Make sure this ID matches your XML
+        textView.setOnClickListener {
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
     }
