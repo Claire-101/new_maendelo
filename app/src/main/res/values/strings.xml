@@ -23,27 +23,39 @@
     <string name="calender1">Jan 2024 - Dec 2024 </string>
     <string name="calender2">Jan 2025 - Dec 2025 </string>
     <string name="calender3">Feb 2025 - Aug 2025 </string>
-    <string name="County1">Kibera, Nairobi </string>
+    <string name="County1">Kibera Road Expansion </string>
     <string name="County2">Mombasa </string>
+    <string name="Nairobi">Nairobi </string>
+
+    <string name="Ongoing">Ongoing </string>
     <string name="County3">Machackos </string>
-    <string name="KES_15M">KES 15M </string>
+    <string name="River">Arthi River Irrigation </string>
     <string name="KES_45M">KES 45M </string>
-    <string name="Rural">Rural School Digital Program</string>
+    <string name="image1_description">Kibera Road Construction</string>
+    <string name="image2_description">Mombasa County Hospital</string>
+    <string name="Extension">Extension of Kibera Road to Join with Ngong Road </string>
+    <string name="Construction">Construction of a modern health Facility. </string>
+
+    <string name="Irrigation">Construction of irrigation channels to support small-scale farmers </string>
+    <string name="Progress1">40%</string>
+    <string name="Progress2">90%</string>
+    <string name="Progress3">30%</string>
+    <string name="Completed">Completed</string>
+    <string name="Delayed">Delayed</string>
 
 
+    <string name="Mombasa">Mombasa County Hospital </string>
 
-    <string name="Mombasa">Mombasa County hospital </string>
-
-             <!-- Tags-->
+    <!-- Tags-->
     <string name="Infrastructure">Infrastructure</string>\
     <string name="Education">Education</string>
     <string name="Agriculture">Agriculture</string>
-    <string name="Health">Health</string>
+    <string name="Health">Healthcare</string>
     <string name="Water">Water</string>
 
     <!-- Details Page-->
 
-                 <!-- Budget Card-->
+    <!-- Budget Card-->
 
     <string name="Kibera_Road">Kibera Road Expansion</string>
     <string name="kibera_Nairobi">Kibera, Nairobi county - Along Kobera Drive extending2.5km from olympic to kibera south road</string>
@@ -54,8 +66,9 @@
     <string name="Planning">Planning</string>
     <string name="KES_8M">KES 8M</string>
     <string name="KES_2M">KES 2M</string>
+    <string name="Report">Report Issue</string>
 
-                <!-- Timeline Card-->
+    <!-- Timeline Card-->
     <string name="Timeline">Timeline</string>
     <string name="Start">Start: January 2024 </string>
     <string name="End">End: December 2024 </string>
@@ -66,19 +79,20 @@
     <string name="Road">Road based construction </string>
     <string name="Asphalt">Asphalt Laying </string>
 
-                 <!-- Project Progress-->
+    <!-- Project Progress-->
     <string name="Progress">Project Progress </string>
+    <string name="Overall">Overall Progress </string>
     <string name="Updates">Recent Updates </string>
     <string name="Date4">2025-02-15</string>
     <string name="Ground">Ground clearing completed ahead of schedule. </string>
 
-
-
-
-
-
-
-
-
-
+    <!-- Report page -->
+    <string name="Feedback">Your feedback really matters to us </string>
+    <string name="Category">Report Category</string>
+    <string name="Cancel">Cancel </string>
+    <string name="Submit">Submit </string>
+    <string name="Evidence">Upload Evidence </string>
+    <string name="Detail">Please describe the issue in detail.... </string>
+    <string name="Description">Description</string>
+    <string name="Upload">Click to Upload image </string>
 </resources>

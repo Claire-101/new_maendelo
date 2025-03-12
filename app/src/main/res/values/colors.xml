@@ -4,8 +4,14 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green"> #1a8753</color>
     <color name="blue">  #316FF6</color>
-    <color name="light_green">#D1E7DB</color>
+    <color name="light_red">#fee2e2</color>
+    <color name="light_green">#dcfce7</color>
     <color name="search_colour">#232A3E</color>
+    <color name="light_blue">#dbeafe</color>
+    <color name="ongoing_blue">#3a59ba</color>
+    <color name="completed_green">#498c62</color>
+    <color name="delayed_red">#991b1b</color>
+
 
 
 </resources>

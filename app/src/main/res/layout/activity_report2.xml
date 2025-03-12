@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Feedback"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Category"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/projectSpinner"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:autofillHints="Select Project" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Description"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="@string/Detail" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Evidence"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/uploadContainer">
+
+        <ImageView
+            android:id="@+id/sharedImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="@string/Updates"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/placeholderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Upload"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/Cancel" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/Submit"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/Submit" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -12,9 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MendeleoApp"
         tools:targetApi="31">
+
         <activity
-            android:name=".Add_project"
-            android:exported="false" />
+            android:name=".Report2"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".report"
+            android:exported="true">
+        </activity>
         <activity
             android:name=".details"
             android:exported="false" />

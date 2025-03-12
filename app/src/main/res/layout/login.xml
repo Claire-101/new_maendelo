@@ -62,7 +62,6 @@
         app:layout_constraintEnd_toEndOf="@+id/input_password"
         app:layout_constraintTop_toBottomOf="@+id/input_password" />
 
-
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="300dp"
@@ -83,7 +82,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#F6EDED"
-        android:drawableStart="@drawable/google"
+        android:drawableLeft="@drawable/google"
         android:text="@string/Google"
         android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@+id/button2"
@@ -99,7 +98,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="#F6EDED"
-        android:drawableStart="@drawable/facebook"
+        android:drawableLeft="@drawable/facebook"
         android:text="@string/Facebook"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/Google"
